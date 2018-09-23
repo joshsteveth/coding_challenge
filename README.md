@@ -24,6 +24,8 @@ $ python wiki_loop_philosophy.py 'https://en.wikipedia.org/wiki/Character_actor'
 ```
 
 Output:
+
+
 ![N|Solid](https://i1.wp.com/joshsteveth.files.wordpress.com/2018/09/wiki_loop.png?ssl=1&w=450)
 
 If Philosophy page can't be reached (either because of infinite loop between 2 pages or max loop or absence of normal links), an error will be raised accordingly.
@@ -33,4 +35,6 @@ Example:
 $ python wiki_loop_philosophy.py 'https://en.wikipedia.org/wiki/American_football'
 ```
 Output:
+
+
 ![N|Solid](https://i1.wp.com/joshsteveth.files.wordpress.com/2018/09/wiki_loop_error.png?ssl=1&w=450)
