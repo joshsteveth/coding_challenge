@@ -24,16 +24,7 @@ $ python wiki_loop_philosophy.py 'https://en.wikipedia.org/wiki/Character_actor'
 ```
 
 Output:
-
->Supporting_actor
->Actor
->Character_(arts)
->Person
->Reason
->Consciousness
->Quality_(philosophy)
->Philosophy
->Philosophy page has been reached!
+![N|Solid](https://i1.wp.com/joshsteveth.files.wordpress.com/2018/09/wiki_loop.png?ssl=1&w=450)
 
 If Philosophy page can't be reached (either because of infinite loop between 2 pages or max loop or absence of normal links), an error will be raised accordingly.
 
@@ -42,10 +33,4 @@ Example:
 $ python wiki_loop_philosophy.py 'https://en.wikipedia.org/wiki/American_football'
 ```
 Output:
->American_football_field
->American_football
->American_football_field
->Traceback (most recent call last):
->  File "wiki_loop_philosophy.py", line 140, in <module>
->    raise InfiniteLoopError('URL has been already visited before')
->__main__.InfiniteLoopError: URL has been already visited before
+![N|Solid](https://i1.wp.com/joshsteveth.files.wordpress.com/2018/09/wiki_loop_error.png?ssl=1&w=450)
