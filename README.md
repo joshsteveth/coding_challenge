@@ -38,3 +38,17 @@ Output:
 
 
 ![N|Solid](https://i1.wp.com/joshsteveth.files.wordpress.com/2018/09/wiki_loop_error.png?ssl=1&w=450)
+
+
+
+### 2. Create a Jupyter notebook with a simple analysis based on [Twitter Sentiment Analysis Training Corpus](http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/):.
+
+Dataset: [Twitter Sentiment Analysis Dataset](http://thinknook.com/wp-content/uploads/2012/09/Sentiment-Analysis-Dataset.zip)
+
+Tasks:
+
+— Show the top-10 most positive words, top-10 negative words (words more frequent with positive and negative labels respectively). 
+
+— Check the Zipf law (https://en.wikipedia.org/wiki/Zipf%27s_law: the frequency of any word is inversely proportional to its rank in the frequency table), show it using a plot. 
+
+— Write a simple classifier to predict sentiment, describe your approach and what can be done to improve the results.
